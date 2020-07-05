@@ -28,7 +28,7 @@ This is a baseline sample of how to build your model as a docker image(in our ca
        
    This is by far the simpliest way of setting up your docker with a base image comes with nvidia driver and CUDA support. 
    The driver version is 440.33.01 and CUDA version is 11.0. 
-   If you have a specific version of driver and/or CUDA in your project, you will have to find a way to install it from scrach.
+   If you have a specific version of driver and/or CUDA in your project, you have to find a way to install it from scrach.
    
        RUN apt-get update
        RUN apt-get -y install python3
