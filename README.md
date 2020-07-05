@@ -35,7 +35,7 @@ This is a baseline sample of how to build your model as a docker image(in our ca
        RUN apt-get -y install python3-pip
        RUN pip install --upgrade pip
        
-   Unfortunately, nvidia/cuda doesn't come with any programming attached, so we have to install it here.
+   Unfortunately, nvidia/cuda doesn't come with any programming languages attached, so we have to install it here.
    
        COPY . /app
        WORKDIR /app
