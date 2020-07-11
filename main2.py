@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     testoc=testout.argmax(1)
 
-    testo=testoc.data
+    testo=testoc.data.cpu().numpy()
     testo=testo+1
 
     f2=open(sys.argv[3],'w')
